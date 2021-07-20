@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation'
 
-  s.dependency 'RealmSwift', '~> 10.5.0'
-  s.dependency 'RxSwift',    '~> 5.1.1'
-  s.dependency 'RxCocoa',    '~> 5.1.1'
-  s.dependency 'RxRealm',    '~> 4.0.3'
+  s.dependency 'RealmSwift', '~> 10'
+  s.dependency 'RxSwift',    '~> 6'
+  s.dependency 'RxCocoa',    '~> 6'
+  s.dependency 'RxRealm', :git => 'https://github.com/alejandro-ulloa-dev/RxRealm.git'
 end
