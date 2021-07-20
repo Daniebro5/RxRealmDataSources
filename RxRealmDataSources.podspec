@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.dependency 'RealmSwift', '~> 10'
   s.dependency 'RxSwift',    '~> 6'
   s.dependency 'RxCocoa',    '~> 6'
-  s.dependency 'RxRealm', :git => 'https://github.com/alejandro-ulloa-dev/RxRealm.git'
+  s.dependency 'RxRealm'
 end
